@@ -57,5 +57,5 @@ switch (month) {
         console.log('March');
         break;
     default:
-        console.log("You get the point");    
+        return console.log("You get the point");    
 }
