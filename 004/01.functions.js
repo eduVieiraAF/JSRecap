@@ -24,4 +24,9 @@ let _name = 'Edu';
 if (_name === 'Edu') myFunction();
 else console.log('Hello, stranger!');
     
-    
+// * Function expression   
+const myFunction2 = function() {
+    console.log('Hello, World! - again');
+};
+
+myFunction2();
