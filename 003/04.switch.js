@@ -51,10 +51,10 @@ switch (month) {
         break;
     case 5:
         return console.log('May');
-    case 3:
+    case 6:
         return console.log('June');
-    case 3:
-        console.log('March');
+    case 7:
+        console.log('July');
         break;
     default:
         return console.log("You get the point");    
