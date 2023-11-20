@@ -13,7 +13,7 @@
 
 */
 
-const weight = 72;
+const weight = 76;
 const height = 1.66;
 
 const BMI = Number(weight / (height * height)).toFixed(2);
