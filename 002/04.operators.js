@@ -62,3 +62,23 @@ console.log(a >= b); // true
 
 // Less than or equal to
 console.log(a <= b); // false
+
+// * Logical
+let x = true;
+let y = false;
+
+// Logical AND
+let result1 = x && y;
+console.log(result1); // false
+
+// Logical OR
+let result2 = x || y;
+console.log(result2); // true
+
+// Logical NOT
+let result3 = !x;
+console.log(result3); // false
+
+if (a > b && x == true) {
+    console.log('All is good');
+}
