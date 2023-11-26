@@ -32,8 +32,6 @@ for (let i in arr) {
 // * For of
 for(let item of obj) {
     console.log(item)
-    // console.log(item.name)
-    // console.log(item.email)
 }
 
 for(let item of arr) {
