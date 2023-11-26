@@ -34,6 +34,14 @@ let clone1 = jeans // shallow cloning and may override values from the original 
 */
 
 let clone2 = {...jeans} // deep cloning does not override values from the original and it's safer
+
+/*
+    * also safer to use Object.assign with JSON.parse
+    let clone2 = JSON.parse(JSON.stringify(discountedPrice))
+    let clone3 = Object.assign(JSON.parse(JSON.stringify(discountedPrice)), 
+        JSON.parse(JSON.stringify(jeans))) 
+*/
+
 let clone3 = Object.assign(discountedPrice, jeans) // deep cloning + joining
 let clone4 = {...discountedPrice, ...jeans} // deep cloning + joining 
 let clone5 = {discountedPrice, jeans} // deep cloning + joining 
