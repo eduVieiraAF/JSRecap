@@ -20,5 +20,6 @@ btn.addEventListener('mouseout', () => {
     btn.innerText = 'Mouse Out';
     setTimeout(() => {
         btn.innerText = 'Alert';
+        // btn.removeEventListener('click', clickHandler);
     }, 1500)
 })
