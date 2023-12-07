@@ -11,3 +11,14 @@ const btn = document.querySelector('button');
 // }
 
 // btn.addEventListener('click', clickHandler);
+
+btn.addEventListener('mouseover', () => {
+    btn.innerText = 'Mouse Over';
+})
+
+btn.addEventListener('mouseout', () => {
+    btn.innerText = 'Mouse Out';
+    setTimeout(() => {
+        btn.innerText = 'Alert';
+    }, 1500)
+})
