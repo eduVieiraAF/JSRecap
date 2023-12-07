@@ -1,9 +1,17 @@
 
 const strong = document.querySelector('strong')
-const p = document.querySelector('.paragraph')
-console.log(strong.parentElement)
-console.log(strong.parentNode)
-console.log(p.parentNode)
+const div = document.querySelector('.container')
+// console.log(strong.parentElement)
+// console.log(strong.parentNode)
+// console.log(div.parentNode)
 
 
 // console.log(document.documentElement.parentNode)
+
+// console.log(div.childNodes)
+// console.log(div.children)
+
+const child = Array.from(div.children)
+for (let i = 0; i < child.length; i++) {
+    console.log(child[i])
+}
