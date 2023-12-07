@@ -26,5 +26,6 @@ setTimeout(() => {
     if (h1.classList.contains("inverted")) {
         h1.classList.toggle("inverted")
         h1.style.boxShadow = "10px 10px 10px gray"
+        console.log(h1.className)
     }
 }, 6000)
