@@ -24,10 +24,13 @@ const h1 = document.querySelector('h1')
 // const lastChild = div.lastElementChild
 // console.log(lastChild)
 
-const nextSibling = h1.nextElementSibling
-const previousSibling = div.previousElementSibling
+// const nextSibling = h1.nextElementSibling
+// const previousSibling = div.previousElementSibling
 
+// console.log(nextSibling)
+// console.log(previousSibling)
 
-console.log(nextSibling)
-console.log(previousSibling)
+const newTitle = document.createElement('h1')
+newTitle.textContent = 'Hello World'
+div.appendChild(newTitle)
 
