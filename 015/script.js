@@ -15,3 +15,7 @@ const child = Array.from(div.children)
 for (let i = 0; i < child.length; i++) {
     console.log(child[i])
 }
+
+// const firstChild = div.firstChild
+const firstChild = div.firstElementChild
+console.log(firstChild)
