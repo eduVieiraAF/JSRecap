@@ -1,6 +1,7 @@
 
 const strong = document.querySelector('strong')
 const div = document.querySelector('.container')
+const h1 = document.querySelector('h1')
 // console.log(strong.parentElement)
 // console.log(strong.parentNode)
 // console.log(div.parentNode)
@@ -17,8 +18,16 @@ const div = document.querySelector('.container')
 // }
 
 // const firstChild = div.firstChild
-const firstChild = div.firstElementChild
-console.log(firstChild)
+// const firstChild = div.firstElementChild
+// console.log(firstChild)
 
-const lastChild = div.lastElementChild
-console.log(lastChild)
+// const lastChild = div.lastElementChild
+// console.log(lastChild)
+
+const nextSibling = h1.nextElementSibling
+const previousSibling = div.previousElementSibling
+
+
+console.log(nextSibling)
+console.log(previousSibling)
+
